@@ -1,5 +1,5 @@
 {
-  "name": "template_zero",
+  "name": "template_enem_octa",
   "description": "Studio Digital Editor Poliedro Template Zero",
   "version": "1.8.0",
   "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -9,7 +9,7 @@
       "icon": "icons/components/icon_00_arte.svg",
       "label": "Componente Áudio",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "text-align",
         "letter-spacing",
         "line-height",
@@ -2984,7 +2984,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Produzir e Compartilhar",
       "properties": [
-        "style_lumen_mais",
+        "style",
         {
           "name": "hyperlink",
           "directiveKey": "link-url"
@@ -2996,7 +2996,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Produzir e Compartilhar",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3004,7 +3004,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Quiz",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3012,7 +3012,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Para Aprofundar",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3020,7 +3020,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Para Aprofundar",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3028,7 +3028,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Para Consolidar",
       "properties": [
-        "style_lumen_mais",
+        "style",
         {
           "name": "hyperlink",
           "directiveKey": "link-url"
@@ -3040,7 +3040,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Para Consolidar",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3048,7 +3048,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Creating and Sharing",
       "properties": [
-        "style_lumen_mais",
+        "style",
         {
           "name": "hyperlink",
           "directiveKey": "link-url"
@@ -3060,7 +3060,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Creating and Sharing",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3068,7 +3068,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Extra Practice",
       "properties": [
-        "style_lumen_mais",
+        "style",
         {
           "name": "hyperlink",
           "directiveKey": "link-url"
@@ -3080,7 +3080,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Extra Practice",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3088,7 +3088,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Find Out More",
       "properties": [
-        "style_lumen_mais",
+        "style",
         {
           "name": "hyperlink",
           "directiveKey": "link-url"
@@ -3100,7 +3100,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Find Out More",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3275,7 +3275,7 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
-        "style_lumen_mais"
+        "style"
       ]
     },
     {
@@ -3307,7 +3307,7 @@
       "allowNesting": "yes",
       "label": "Slideshow 2 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -3335,7 +3335,7 @@
       "allowNesting": "yes",
       "label": "Slideshow 3 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -3363,7 +3363,7 @@
       "allowNesting": "yes",
       "label": "Slideshow 4 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -3391,7 +3391,7 @@
       "allowNesting": "one-level",
       "label": "Slideshow 5 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -3419,7 +3419,7 @@
       "allowNesting": "one-level",
       "label": "Slideshow 6 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -3447,7 +3447,7 @@
       "allowNesting": "one-level",
       "label": "Slideshow 7 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -3475,7 +3475,7 @@
       "allowNesting": "one-level",
       "label": "Slideshow 8 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -3503,7 +3503,7 @@
       "allowNesting": "one-level",
       "label": "Slideshow 9 Imagens",
       "properties": [
-        "style_lumen_mais",
+        "style",
         "position",
         "background-color"
       ],
@@ -4075,46 +4075,10 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "artes"
-              }
-            },
-            "value": "artes"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "biologia"
               }
             },
             "value": "biologia"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "ciencias"
-              }
-            },
-            "value": "ciencias"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "educacao_fisica"
-              }
-            },
-            "value": "educacao_fisica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "filosofia"
-              }
-            },
-            "value": "filosofia"
           },
           {
             "caption": {
@@ -4147,78 +4111,6 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "historia"
-              }
-            },
-            "value": "historia"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "integrado"
-              }
-            },
-            "value": "integrado"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "inter_de_texto"
-              }
-            },
-            "value": "inter_de_texto"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "lingua_espanhola"
-              }
-            },
-            "value": "lingua_espanhola"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "lingua_inglesa"
-              }
-            },
-            "value": "lingua_inglesa"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "lingua_portuguesa"
-              }
-            },
-            "value": "lingua_portuguesa"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "linguagens"
-              }
-            },
-            "value": "linguagens"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "literatura"
-              }
-            },
-            "value": "literatura"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "matematica"
               }
             },
@@ -4228,19 +4120,10 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "musica"
+                "0": "historia"
               }
             },
-            "value": "musica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "producao_de_texto"
-              }
-            },
-            "value": "producao_de_texto"
+            "value": "historia"
           },
           {
             "caption": {
@@ -4255,63 +4138,28 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "sociologia"
+                "0": "literatura"
               }
             },
-            "value": "sociologia"
-          }
-        ]
-      },
-      "dataType": "styles"
-    },
-    {
-      "name": "style_lumen_mais",
-      "label": {
-        "key": "PROPERTY_VARIANT_LABEL"
-      },
-      "control": {
-        "type": "select",
-        "options": [
-          {
-            "caption": {
-              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
-            }
+            "value": "literatura"
           },
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "Artes"
+                "0": "gramática"
               }
             },
-            "value": "artes"
+            "value": "gramatica"
           },
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "200"
+                "0": "inter_de_texto"
               }
             },
-            "value": "lingua_inglesa"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "Língua Portuguesa"
-              }
-            },
-            "value": "lingua_portuguesa"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "Matemática"
-              }
-            },
-            "value": "matematica"
+            "value": "inter_de_texto"
           }
         ]
       },

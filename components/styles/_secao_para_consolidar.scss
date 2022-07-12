@@ -10,138 +10,13 @@
   align-items: center;
   position: relative;
   justify-content: space-between;
-  color: $por_cor2;
+  color: $preto;
 
   & .titulo_para_consolidar {
     font-family: $fontName;
     font-weight: 700;
     font-size: 1.875rem;
     margin: 0;
-  }
-
-  &.artes {
-    color: $art_cor2;
-    background-color: #f4f2f7;
-
-    .icone_disciplina_consolidar {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_consolidar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px;
-    }
-
-    .arrow-menor {
-      border: 1px solid #634d97;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2;
-    }
-
-    .arrow-ponta {
-      border: #f4f2f7;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #f4f2f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px;
-    }
-  }
-
-  &.lingua_inglesa {
-    color: $ing_cor2;
-    background-color: #edf8f7;
-
-    .icone_disciplina_consolidar {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_para_consolidar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px;
-    }
-
-    .arrow-menor {
-      border: 1px solid #039c92;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2;
-    }
-
-    .arrow-ponta {
-      border: #edf8f7;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #edf8f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px;
-    }
-  }
-
-  &.lingua_portuguesa {
-    color: $por_cor2;
-    background-color: #fbf0f0;
-
-    .icone_disciplina_consolidar {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_para_consolidar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px;
-    }
-
-    .arrow-menor {
-      border: 1px solid #ce3a40;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      z-index: 2;
-    }
-
-    .arrow-ponta {
-      border: #fbf0f0;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #fbf0f0;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px;
-    }
-
   }
 
   &.matematica {

@@ -9,25 +9,13 @@
   }
 
   /* class styles for the options properties of the container component */
-  &.artes {
-    background-color: $art_cor1;
-    color: #FFF;
-  }
 
   &.biologia {
     background-color: $bio_cor1;
   }
 
-  &.ciencias {
-    background-color: $cie_cor1;
-  }
-
-  &.filosofia {
-    background-color: $fil_cor1;
-  }
-
   &.fisica {
-    background-color: $edf_cor1;
+    background-color: $fis_cor1;
   }
 
   &.geografia {
@@ -38,33 +26,14 @@
     background-color: $his_cor1;
   }
 
-  &.lingua_inglesa {
-    background-color: $ing_cor1;
-  }
-
-  &.lingua_portuguesa {
-    background-color: $por_cor1;
-  }
-
   &.matematica {
     background-color: $mat_cor1;
-  }
-
-  &.producao_de_texto {
-    background-color: $ptx_cor1;
   }
 
   &.quimica {
     background-color: $qui_cor1;
   }
 
-  &.sociologia {
-    background-color: $soc_cor1;
-  }
-
-  &.lingua_espanhola {
-    background-color: $esp_cor1;
-  }
 
   &.gramatica {
     background-color: $gra_cor1;
@@ -132,33 +101,15 @@
 .group-radio {
   width: 100%;
 
-  &.artes {
-    .container input:checked~.checkmark {
-      background-color: $art_cor1;
-    }
-  }
-
   &.biologia {
     .container input:checked~.checkmark {
       background-color: $bio_cor1;
     }
   }
 
-  &.ciencias {
-    .container input:checked~.checkmark {
-      background-color: $cie_cor1;
-    }
-  }
-
-  &.filosofia {
-    .container input:checked~.checkmark {
-      background-color: $fil_cor1;
-    }
-  }
-
   &.fisica {
     .container input:checked~.checkmark {
-      background-color: $edf_cor1;
+      background-color: $fis_cor1;
     }
   }
 
@@ -174,27 +125,9 @@
     }
   }
 
-  &.lingua_inglesa {
-    .container input:checked~.checkmark {
-      background-color: $ing_cor1;
-    }
-  }
-
-  &.lingua_portuguesa {
-    .container input:checked~.checkmark {
-      background-color: $por_cor1;
-    }
-  }
-
   &.matematica {
     .container input:checked~.checkmark {
       background-color: $mat_cor1;
-    }
-  }
-
-  &.producao_de_texto {
-    .container input:checked~.checkmark {
-      background-color: $ptx_cor1;
     }
   }
 
@@ -204,33 +137,9 @@
     }
   }
 
-  &.sociologia {
-    .container input:checked~.checkmark {
-      background-color: $soc_cor1;
-    }
-  }
-
-  &.lingua_espanhola {
-    .container input:checked~.checkmark {
-      background-color: $esp_cor1;
-    }
-  }
-
   &.gramatica {
     .container input:checked~.checkmark {
       background-color: $gra_cor1;
-    }
-  }
-
-  &.educacao_fisica {
-    .container input:checked~.checkmark {
-      background-color: $edf_cor1;
-    }
-  }
-
-  &.integrado {
-    .container input:checked~.checkmark {
-      background-color: $int_cor1;
     }
   }
 
@@ -240,23 +149,7 @@
     }
   }
 
-  &.linguagens {
-    .container input:checked~.checkmark {
-      background-color: $lin_cor1;
-    }
-  }
 
-  &.literatura {
-    .container input:checked~.checkmark {
-      background-color: $lit_cor1;
-    }
-  }
-
-  &.musica {
-    .container input:checked~.checkmark {
-      background-color: $mus_cor1;
-    }
-  }
 
   /* Customize the label (the container) */
   .container_questao_radio {
