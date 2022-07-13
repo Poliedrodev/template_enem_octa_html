@@ -1,52 +1,76 @@
 .css_01_titulo2 {
 
-  /* Características do texto */
-  font-family: $fontPrincipal;
-  font-weight: 800;
-  font-size: 26px;
-  color: $preto;
-
   /* Características do componente */
   display: block;
-  margin-top: 20px;
-  padding: 0 68px;
-  margin-bottom: 0px;
-  line-height: 1.5em;
 
   /* Variações de cores */
   &.biologia {
+
     color: $bio_cor1;
+
   }
-  
+
   &.fisica {
+
+
     color: $fis_cor1;
+
   }
-  
+
   &.geografia {
+
     color: $geo_cor1;
+
   }
-  
+
   &.gramatica {
+
+
     color: $gra_cor1;
+
   }
-  
+
   &.historia {
+
+
     color: $his_cor1;
+
   }
 
   &.inter_de_texto {
+
+
     color: $itx_cor1;
+
   }
-  
+
   &.literatura {
+
     color: $lit_cor1;
+
   }
 
   &.matematica {
+
+
     color: $mat_cor1;
+
   }
 
   &.quimica {
-    color: $qui_cor1;
+
+    
+      color: $qui_cor1;
+    
   }
+
+  /* Características do texto */
+ 
+    font-family: $fontTitle;
+    font-weight: 700;
+    font-size: 23px;
+    color: $preto;
+    margin: 40px 68px 0px 68px;
+    padding: 0px 0px 0px 0px;
+  
 }

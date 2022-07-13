@@ -1,53 +1,15 @@
 .css_01_titulo3 {
 
   /* Características do texto */
-  font-family: $fontPrincipal;
+  font-family: $fontTitle;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 21px;
   color: $preto;
 
   /* Características do componente */
   display: block;
   margin-top: 20px;
-  padding: 0 68px;
   margin-bottom: 0px;
   line-height: 1.5em;
 
-  /* Variações de cores */
-
-  &.biologia {
-    color: $bio_cor1;
-  }
-  
-  &.fisica {
-    color: $fis_cor1;
-  }
-  
-  &.geografia {
-    color: $geo_cor1;
-  }
-  
-  &.gramatica {
-    color: $gra_cor1;
-  }
-  
-  &.historia {
-    color: $his_cor1;
-  }
-  
-  &.inter_de_texto {
-    color: $itx_cor1;
-  }
-  
-  &.literatura {
-    color: $lit_cor1;
-  }
-
-  &.matematica {
-    color: $mat_cor1;
-  }
-
-  &.quimica {
-    color: $qui_cor1;
-  }
 }

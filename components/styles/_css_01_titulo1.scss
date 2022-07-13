@@ -1,107 +1,76 @@
 .css_01_titulo1 {
 
   /* Características do componente */
-  position: relative;
   display: block;
 
   /* Variações de cores */
   &.biologia {
-    .line{
-      background-color: $seg_nat_cor1;
-    }
+   
     .text{
-      color: $bio_cor2;
+      color: $bio_cor1;
     }
   }
-
-
   &.fisica {
-    .line{
-      background-color: $seg_nat_cor1;
-    }
+   
     .text{
-      color: $fis_cor2;
+      color: $fis_cor1;
     }
   }
 
   &.geografia {
-    .line{
-      background-color: $seg_hum_cor1;
-    }
+    
     .text{
-      color: $geo_cor2;
+      color: $geo_cor1;
     }
   }
 
   &.gramatica {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
+    
     .text{
-      color: $gra_cor2;
+      color: $gra_cor1;
     }
   }
 
   &.historia {
-    .line{
-      background-color: $seg_hum_cor1;
-    }
+    
     .text{
-      color: $his_cor2;
+      color: $his_cor1;
     }
   }
 
   &.inter_de_texto {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
+   
     .text{
       color: $itx_cor1;
     }
   }
 
   &.literatura {
-    .line{
-      background-color: $seg_lin_cor1;
-    }
+   
     .text{
-      color: $lit_cor2;
+      color: $lit_cor1;
     }
   }
 
   &.matematica {
-    .line{
-      background-color: $seg_mat_cor1;
-    }
+   
     .text{
-      color: $mat_cor2;
+      color: $mat_cor1;
     }
   }
   
   &.quimica {
-    .line{
-      background-color: $seg_nat_cor1;
-    }
+    
     .text{
-      color: $qui_cor2;
+      color: $qui_cor1;
     }
-  }
-
-  /* Características da linha */
-  .line{
-    width: 215px;
-    background-color: $preto;
-    position: absolute;
-    bottom: -25px;
-    margin: 0px 68px 20px 68px;
-    padding: 0px 0px 3px 0px;
   }
 
   /* Características do texto */
   .text{
-    font-family: $fontPrincipal;
-    font-weight: 800;
-    font-size: 40px;
+    font-family: $fontTitle;
+    font-weight: 700;
+    font-size: 30px;
     color: $preto;
     margin: 40px 68px 0px 68px;
     padding: 0px 0px 0px 0px;
