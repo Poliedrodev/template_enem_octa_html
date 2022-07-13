@@ -1,9 +1,9 @@
 .css_03_exercicio_alternativa_assinalar_itens {
   margin-top: 16px;
 
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 300;
-  color: $textColor;
+  color:$preto;
   line-height: 1.5em;
   font-size: $fontSizeQuestion;
   align-items: baseline;
@@ -17,7 +17,7 @@
   }
 
   &::after {
-    font-family: $fontName;
+    font-family: $fontPrincipal;
     font-size: 20px;
     font-weight: 600;
     content: "(";
@@ -27,7 +27,7 @@
   }
 
   &::before {
-    font-family: $fontName;
+    font-family: $fontPrincipal;
     font-size: 20px;
     font-weight: 600;
     content: ")";

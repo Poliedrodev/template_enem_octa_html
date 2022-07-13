@@ -12,7 +12,7 @@
     }
 
     .slider-subtitle {
-      font-family: $fontName;
+      font-family: $fontPrincipal;
       font-weight: 500;
       -webkit-flex-shrink: 0;
       flex-shrink: 0;
@@ -25,7 +25,7 @@
     }
 
     .slider-credit {
-      font-family: $fontName;
+      font-family: $fontPrincipal;
       -webkit-flex-shrink: 0;
       flex-shrink: 0;
       color: $mat_cor2;
@@ -58,7 +58,7 @@
 }
 
 .slider-subtitle {
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 500;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
@@ -70,7 +70,7 @@
 }
 
 .slider-credit {
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   color: black;
