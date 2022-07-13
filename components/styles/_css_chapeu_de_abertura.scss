@@ -1,0 +1,206 @@
+.css_chapeu_de_abertura {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  // cicle
+  .body_cicle {
+    position: absolute;
+    top: -90px;
+    left: 0;
+  }
+
+  .content_cicle_chapeu_de_abertura {
+    width: 180px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #C2B59B;
+    box-shadow: 0 0 0 12px #FFFFFF;
+
+    margin-left: 32px;
+
+    .aulas_chapeu_de_abertura {
+      color: #7B7979;
+      font-family: 'Rubik', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21px;
+    }
+
+
+
+    // numbers
+    .number_chapeu_de_abertura {
+      color: #F7943E;
+      font-family: 'Oswald' ,sans-serif;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 39px;
+
+      .number_one,
+      .number_two {
+        font-family: 'Oswald' ,sans-serif;
+        font-size: 46px;
+        font-weight: 500;
+        line-height: 68px;
+        letter-spacing: -0.04em;
+        text-align: left;
+      }
+    }
+
+    // code 
+    .code_chapeu_de_abertura {
+      color: #7B7979;
+      font-family: 'Rubik', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21px;
+    }
+  }
+
+  // barras
+  .bars_chapeu_de_abertura {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 48px;
+
+    .bars_first_chapeu_de_abertura {
+      height: 32px;
+      background-color: $itx_cor1;
+    }
+
+    .bars_second_chapeu_de_abertura {
+      height: 16px;
+      background-color: #F3F0EB;
+      ;
+    }
+  }
+
+  // title
+  .content_title_chapeu_de_abertura {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+
+    .title_chapeu_de_abertura {
+      color: #85BB9D;
+      font-family: 'Oswald' ,sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+    }
+
+    .subtitle_chapeu_de_abertura {
+      margin-top: 4px;
+      color: #7B7979;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21px;
+    }
+  }
+
+  &.biologia {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $bio_cor1;
+      }
+    }
+  }
+
+  &.fisica {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $fis_cor1;
+      }
+    }
+  }
+
+  &.geografia {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $geo_cor1;
+      }
+    }
+  }
+
+  &.matematica {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $mat_cor1;
+      }
+    }
+  }
+
+  &.historia {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $his_cor1;
+      }
+    }
+  }
+
+  &.quimica {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $qui_cor1;
+      }
+    }
+  }
+
+  &.inter_de_texto {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $itx_cor1;
+      }
+    }
+  }
+
+  &.literatura {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $lit_cor1;
+      }
+    }
+  }
+
+  &.gramatica {
+    .bars_chapeu_de_abertura {
+      .bars_first_chapeu_de_abertura {
+        background-color: $gra_cor1;
+      }
+    }
+  } 
+}
+
+
+
+
+@media only screen and (max-width: $phone-max-width) {
+  .css_chapeu_de_abertura{
+    // cicle
+    .body_cicle{
+      width: 100%;
+      .content_cicle_chapeu_de_abertura{
+        margin: auto;
+      }
+    }
+
+    // title
+    .content_title_chapeu_de_abertura{
+      margin-top: 60px;
+      padding-left: 36px;
+      padding-right: 36px;
+    }
+  }
+}

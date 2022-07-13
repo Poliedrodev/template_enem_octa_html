@@ -5,6 +5,22 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "css_chapeu_de_secoes",
+      "label": "Chapéu de abertura",
+      "icon": "icons/components/container.svg",
+      "properties": [
+        "style"
+      ]
+    },
+    {
+      "name": "css_chapeu_de_abertura",
+      "label": "Chapéu de abertura",
+      "icon": "icons/components/container.svg",
+      "properties": [
+        "style"
+      ]
+    },
+    {
       "name": "audio",
       "icon": "icons/components/icon_00_arte.svg",
       "label": "Componente Áudio",
@@ -3275,6 +3291,7 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
+        "edit-mode",
         "style"
       ]
     },
@@ -3611,6 +3628,7 @@
       "label": "01 aberturas e titulos",
       "name": "01_aberturas_e_titulos",
       "components": [
+        "css_chapeu_de_abertura",
         "css_01_bullet_unid",
         "css_01_texto_unid",
         "css_01_titulo_cap_num",
@@ -3733,6 +3751,7 @@
       "label": "07 secoes",
       "name": "07_secoes",
       "components": [
+        "css_chapeu_de_secoes",
         "css_07_secao_exercicio_alternativa",
         "css_07_secao_exercicio_bullet",
         "css_07_secao_exercicio_continuacao",
@@ -3879,6 +3898,23 @@
               "key": "PROPERTY_POSITION_RIGHT_OPTION"
             },
             "value": "_right"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "edit-mode",
+      "label": "Ative para ver o modo de edição com barras",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Desativado"
+          },
+          {
+            "caption": "Ativado",
+            "value": "edit-mode"
           }
         ]
       },
@@ -4228,6 +4264,15 @@
               }
             },
             "value": "_fit_content_margin_auto"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Imagem Título (remove as margens)"
+              }
+            },
+            "value": "_image2_titulo"
           }
         ]
       },

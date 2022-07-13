@@ -1,0 +1,39 @@
+.css_chapeu_de_secoes {
+  display: flex;
+  height: 49;
+  border-bottom: 1px solid #DA5272;
+
+
+
+  .first_chapeu_de_secoes,
+  .second_chapeu_de_secoes {
+    width: fit-content;
+    border-radius: 0px 16px 0px 0px;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .first_chapeu_de_secoes {
+    
+    color: #7B7979;
+    
+    background: #F2F2F2;
+    z-index: 1;
+  }
+
+  .second_chapeu_de_secoes {
+    color: #FFFFFF;
+    border-radius: 0px 16px 0px 0px;
+    background: #DA5272;
+   
+    position: relative;
+    left: -12px;
+  }
+}
