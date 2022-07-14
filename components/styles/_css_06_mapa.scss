@@ -1,0 +1,37 @@
+.css_06_mapa {
+  margin-top: 16px;
+  background-color: $ΜΑΡΑ_50;
+  border: 1px solid $ΜΑΡΑ_50;
+
+  .header_css_06_mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77px;
+
+    .title_css_06_mapa {
+      color: #FFFFFF;
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26px;
+      text-align: center;
+
+    }
+  }
+
+  .main_css_06_mapa {
+    background: #F5F5F5;;
+    display: flex;
+    justify-content: center;
+
+    & :first-child {
+      margin: 0 !important;
+    }
+
+    &[doc-container]:empty {
+      min-height: 100px;
+      background-color: #ffffff;
+    }
+  }
+}

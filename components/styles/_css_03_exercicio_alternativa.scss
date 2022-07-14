@@ -1,9 +1,9 @@
 .css_03_exercicio_alternativa {
   margin-top: 16px;
 
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 400;
-  color: $textColor;
+  color: #A5A5A5;
   line-height: 1.5em;
   font-size: $fontSizeQuestion;
 
@@ -14,13 +14,14 @@
     margin-top: 0 !important;
   }
 
-  
+
   &.item_romano_itens .css_03_exercicio_alternativa_item {
     &::before {
-      font-family: $fontName;
+      font-family: $fontPrincipal;
       font-size: $fontSizeIndiceQuestion;
-      font-weight: 600;
       counter-increment: list;
+      font-weight: 400;
+      color: $textColor !important;
       content: counter(list, lower-alpha) ")";
       position: absolute;
       left: -30px;
@@ -30,6 +31,8 @@
   &.itens .css_03_exercicio_alternativa_item {
     &::before {
       counter-increment: list;
+      color: $textColor !important;
+      font-weight: 400;
       content: counter(list, decimal) ".";
     }
   }
@@ -41,24 +44,24 @@
     }
   }
 
+  &.item_uppercase .css_03_exercicio_alternativa_item {
+    &::before {
+      counter-increment: list;
+      font-weight: 400;
+      content: counter(list, upper-latin) "";
+    }
+  }
+
   &.alternativa_assinalar_itens .css_03_exercicio_alternativa_item {
     &::after {
-      font-family: $fontName;
-      font-size: 20px;
-      font-weight: 600;
-      content: "(";
+      content: "";
       position: absolute;
+      width: 20px;
+      height: 20px;
       left: -32px;
       top: 0;
-    }
-
-    &::before {
-      font-family: $fontName;
-      font-size: 20px;
-      font-weight: 600;
-      content: ")";
-      position: absolute;
-      left: -16px;
+      border: 0.5px solid #888888;
+      background-color: #D9D9D9;
     }
   }
 }

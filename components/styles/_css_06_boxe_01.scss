@@ -1,0 +1,11 @@
+.css_06_boxe_01 {
+  margin-top: 16px;
+  padding: 16px;
+  background: $COMUMA_20;
+  border-top: 1px solid $COMUMA_100;
+  border-bottom: 1px solid $COMUMA_100;
+
+  & :first-child{
+    margin-top: 0 !important;
+  }
+}

@@ -1,0 +1,20 @@
+.css_05_glossario {
+  padding: 16px;
+  background-color: $COMUMB_20;
+
+  .text_css_05_glossario {
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 21px;
+
+    .first_css_05_glossario {
+      color: $COMUMB_100;
+      font-weight: 600;
+    }
+
+    .second_css_05_glossario {
+      color: $textColor;
+      font-weight: 300;
+    }
+  }
+}

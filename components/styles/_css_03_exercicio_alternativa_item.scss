@@ -1,7 +1,7 @@
 .css_03_exercicio_alternativa_item {
   margin-top: 16px;
 
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 300;
   color: $textColor;
   line-height: 1.5em;
@@ -13,9 +13,10 @@
   position: relative;
 
   &::before {
-    font-family: $fontName;
+    font-family: $fontPrincipal;
     font-size: $fontSizeIndiceQuestion;
-    font-weight: 600;
+    font-weight: 300;
+    color: #A5A5A5;
     counter-increment: list;
     content: counter(list, lower-alpha) ")";
     position: absolute;

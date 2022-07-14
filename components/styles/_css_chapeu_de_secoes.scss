@@ -1,39 +1,246 @@
 .css_chapeu_de_secoes {
+  margin-top: 16px;
   display: flex;
-  height: 49;
-  border-bottom: 1px solid #DA5272;
+  flex-direction: column;
 
 
+  .header_chapeu_de_secoes {
+    display: flex;
+    height: 49;
+    border-bottom: 1px solid $PRATICAR;
 
-  .first_chapeu_de_secoes,
-  .second_chapeu_de_secoes {
-    width: fit-content;
-    border-radius: 0px 16px 0px 0px;
+    .first_chapeu_de_secoes,
+    .second_chapeu_de_secoes {
+      width: fit-content;
+      border-radius: 0px 16px 0px 0px;
 
-    font-family: 'Rubik', sans-serif;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 33px;
+      font-family: $fontPrincipal;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 33px;
 
-    padding: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+      padding: 8px;
+      padding-right: 16px;
+    }
+
+    .first_chapeu_de_secoes {
+      padding-left: 16px;
+      color: #7B7979;
+      background: $SECUNDARIA;
+      z-index: 1;
+
+      &:before {
+        content: 'Texto';
+      }
+    }
+
+    .second_chapeu_de_secoes {
+      padding-left: 24px;
+      color: #FFFFFF;
+      background: $PRATICAR;
+
+      position: relative;
+      left: -12px;
+
+      &:before {
+        content: 'PADRÃO';
+      }
+    }
   }
 
-  .first_chapeu_de_secoes {
-    
-    color: #7B7979;
-    
-    background: #F2F2F2;
-    z-index: 1;
+  .main_chapeu_de_secoes {
+    margin-top: 24px;
+
+    & :first-child {
+      margin-top: 0 !important;
+    }
+
+    &[doc-container]:empty {
+      min-height: 100px;
+      background-color: #fff0f0;
+    }
+
+    .content_number {
+      .background_number {
+        .number_exercicio {
+          font-family: $fontPrincipal;
+          font-variant: traditional;
+          font-weight: 700;
+          font-size: $fontSizeIndiceQuestion;
+        }
+      }
+    }
   }
 
-  .second_chapeu_de_secoes {
-    color: #FFFFFF;
-    border-radius: 0px 16px 0px 0px;
-    background: #DA5272;
-   
-    position: relative;
-    left: -12px;
+  // variações
+  &._PRATICAR {
+    .header_chapeu_de_secoes {
+      border-bottom: 1px solid $PRATICAR;
+
+      .first_chapeu_de_secoes {
+        color: #7B7979;
+        background: $SECUNDARIA;
+
+        &:before {
+          content: 'Para';
+        }
+      }
+
+      .second_chapeu_de_secoes {
+        color: #FFFFFF;
+        background: $PRATICAR;
+
+        &:before {
+          content: 'PRATICAR';
+        }
+      }
+    }
+
+    .content_number {
+      .background_number {
+        .number_exercicio {
+          color: $PRATICAR;
+        }
+      }
+    }
+  }
+
+  &._ENEM {
+    .header_chapeu_de_secoes {
+      border-bottom: 1px solid $ENEM;
+
+      .first_chapeu_de_secoes {
+        color: #7B7979;
+        background: $SECUNDARIA;
+
+        &:before {
+          content: 'É assim no';
+        }
+      }
+
+      .second_chapeu_de_secoes {
+        color: #FFFFFF;
+        background: $ENEM;
+
+        &:before {
+          content: 'ENEM';
+        }
+      }
+    }
+
+    .content_number {
+      .background_number {
+        .number_exercicio {
+          color: $ENEM;
+        }
+      }
+    }
+  }
+
+  &._BNCC {
+    .header_chapeu_de_secoes {
+      border-bottom: 1px solid $BNCC;
+
+      .first_chapeu_de_secoes {
+        color: #7B7979;
+        background: $SECUNDARIA;
+
+        &:before {
+          content: 'De olho na';
+        }
+      }
+
+      .second_chapeu_de_secoes {
+        color: #FFFFFF;
+        background: $BNCC;
+
+        &:before {
+          content: 'BNCC';
+        }
+      }
+    }
+
+    .content_number {
+      .background_number {
+        .number_exercicio {
+          color: $BNCC;
+        }
+      }
+    }
+  }
+
+  &._DESTAQUE {
+    .header_chapeu_de_secoes {
+      border-bottom: 1px solid $DESTAQUE;
+
+      .first_chapeu_de_secoes {
+        color: #7B7979;
+        background: $SECUNDARIA;
+
+        &:before {
+          content: '';
+        }
+      }
+
+      .second_chapeu_de_secoes {
+        color: #FFFFFF;
+        background: $DESTAQUE;
+
+        &:before {
+          content: 'DESTAQUE';
+        }
+      }
+    }
+
+    .content_number {
+      .background_number {
+        .number_exercicio {
+          color: $DESTAQUE;
+        }
+      }
+    }
+  }
+
+  &._ATENCAO {
+    .header_chapeu_de_secoes {
+      border-bottom: 1px solid $ATENCAO;
+
+      .first_chapeu_de_secoes {
+        color: #FFFFFF;
+        background: $ATENCAO;
+
+        &:before {
+          content: 'ATENCAO';
+        }
+      }
+
+      .second_chapeu_de_secoes {
+        display: none;
+      }
+    }
+
+    .content_number {
+      .background_number {
+        .number_exercicio {
+          color: $ATENCAO;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: $phone-max-width) {
+  .css_chapeu_de_secoes{
+    .header_chapeu_de_secoes {
+      .first_chapeu_de_secoes {
+        font-size: 16px;
+      }
+  
+      .second_chapeu_de_secoes {
+        font-size: 24px;
+      }
+    }
   }
 }

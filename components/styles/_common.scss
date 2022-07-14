@@ -62,6 +62,27 @@ $gra_cor1: #8B0E1A;
 $gra_cor2: #85BB9D;
 $gra_background: #EEDBDD;
 
+// secoes
+$PRATICAR: #DA5272;
+$ENEM: #2E8FC1;
+$BNCC: #D2611C;
+$DESTAQUE: #005CA9;
+$ATENCAO: #E11111;
+$SAIBA_MAIS: #009982;
+
+$SECUNDARIA: #F2F2F2;
+
+$COMUMA_20: #F3F0EB;
+$COMUMA_50: #C2B59B;
+$COMUMA_100: #C2B59B;
+
+$COMUMB_20: #FDEAD8;
+$COMUMB_50: #FBCA9F;
+$COMUMB_100: #F7943E;
+
+$ΜΑΡΑ_50: #DD9448;
+$ΜΑΡΑ_100: #D5791A;
+
 
 
 /* Variações de cores de segmento */
@@ -91,8 +112,10 @@ $seg_hum_cor4: #EEF7F3;
 
 /* Outros */
 
-$fontName: 'Montserrat';
-$fonteSerifa: 'Noticia Text';
+$fontPrincipal: 'Rubik';
+$fonteSerifa: 'Bitter';
+$fontTitle:'Roboto';
+$fontAbertura:'Oswald';
 $defaultFontSize: 14px;
 $defaultFontWeight: 300;
 $screen-sm-max: 991px;
@@ -134,18 +157,15 @@ h3 {
 
 /* Font embeds, examples see: https://www.google.com/fonts */
 /* Imports the style from the google fonts cdn */
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,600;1,300&family=Oswald:wght@500;600&family=Roboto:wght@500;700&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap);
 
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@400;600;800&display=swap');
 
 /* Article view style */
 .body-book,
 .body {
   padding: 0;
   margin: 0;
-  font: $defaultFontSize $fontName;
+  font: $defaultFontSize $fontPrincipal;
   color: $textColor;
   background-color: $bodyBackground;
   font-weight: $defaultFontWeight;
@@ -161,7 +181,7 @@ h3 {
 
 .body {
   max-width: $max-width;
-  padding: 0 5px;
+  // padding: 0 5px;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;

@@ -22,7 +22,7 @@
 
     border-radius: 50%;
     background-color: #FFFFFF;
-    border: 1px solid #C2B59B;
+    border: 1px solid $COMUMA_50;
     box-shadow: 0 0 0 12px #FFFFFF;
 
     margin-left: 32px;
@@ -39,15 +39,15 @@
 
     // numbers
     .number_chapeu_de_abertura {
-      color: #F7943E;
-      font-family: 'Oswald' ,sans-serif;
+      color: $COMUMB_100;
+      font-family: $fontAbertura;
       font-size: 26px;
       font-weight: 500;
       line-height: 39px;
 
       .number_one,
       .number_two {
-        font-family: 'Oswald' ,sans-serif;
+        font-family: $fontAbertura;
         font-size: 46px;
         font-weight: 500;
         line-height: 68px;
@@ -94,7 +94,7 @@
 
     .title_chapeu_de_abertura {
       color: #85BB9D;
-      font-family: 'Oswald' ,sans-serif;
+      font-family: $fontAbertura;
       font-size: 24px;
       font-weight: 600;
       line-height: 36px;
@@ -103,7 +103,7 @@
     .subtitle_chapeu_de_abertura {
       margin-top: 4px;
       color: #7B7979;
-      font-family: 'Roboto', sans-serif;
+      font-family: $fontTitle;
       font-size: 18px;
       font-weight: 700;
       line-height: 21px;
@@ -116,6 +116,10 @@
         background-color: $bio_cor1;
       }
     }
+
+    .title_chapeu_de_abertura {
+      color: $bio_cor2;
+    }
   }
 
   &.fisica {
@@ -123,6 +127,10 @@
       .bars_first_chapeu_de_abertura {
         background-color: $fis_cor1;
       }
+    }
+
+    .title_chapeu_de_abertura {
+      color: $fis_cor2;
     }
   }
 
@@ -132,6 +140,10 @@
         background-color: $geo_cor1;
       }
     }
+
+    .title_chapeu_de_abertura {
+      color: $geo_cor2;
+    }
   }
 
   &.matematica {
@@ -139,6 +151,10 @@
       .bars_first_chapeu_de_abertura {
         background-color: $mat_cor1;
       }
+    }
+
+    .title_chapeu_de_abertura {
+      color: $mat_cor2;
     }
   }
 
@@ -148,6 +164,10 @@
         background-color: $his_cor1;
       }
     }
+
+    .title_chapeu_de_abertura {
+      color: $his_cor2;
+    }
   }
 
   &.quimica {
@@ -155,6 +175,10 @@
       .bars_first_chapeu_de_abertura {
         background-color: $qui_cor1;
       }
+    }
+
+    .title_chapeu_de_abertura {
+      color: $qui_cor2;
     }
   }
 
@@ -164,6 +188,10 @@
         background-color: $itx_cor1;
       }
     }
+
+    .title_chapeu_de_abertura {
+      color: $itx_cor2;
+    }
   }
 
   &.literatura {
@@ -171,6 +199,10 @@
       .bars_first_chapeu_de_abertura {
         background-color: $lit_cor1;
       }
+    }
+
+    .title_chapeu_de_abertura {
+      color: $lit_cor2;
     }
   }
 
@@ -180,24 +212,30 @@
         background-color: $gra_cor1;
       }
     }
-  } 
+
+    .title_chapeu_de_abertura {
+      color: $gra_cor2;
+    }
+  }
 }
 
 
 
 
 @media only screen and (max-width: $phone-max-width) {
-  .css_chapeu_de_abertura{
+  .css_chapeu_de_abertura {
+
     // cicle
-    .body_cicle{
+    .body_cicle {
       width: 100%;
-      .content_cicle_chapeu_de_abertura{
+
+      .content_cicle_chapeu_de_abertura {
         margin: auto;
       }
     }
 
     // title
-    .content_title_chapeu_de_abertura{
+    .content_title_chapeu_de_abertura {
       margin-top: 60px;
       padding-left: 36px;
       padding-right: 36px;

@@ -5,17 +5,57 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
-      "name": "css_chapeu_de_secoes",
-      "label": "Chapéu de abertura",
+      "name": "css_05_glossario",
+      "label": "Texto Glossario",
+      "icon": "icons/components/icon_02_texto_geral1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "directiveOptions": {
+        "title": {
+          "stripStylingOnPaste": true
+        },
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_06_mapa",
+      "label": "Mapa Container",
       "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes"
+    },
+    {
+      "name": "css_06_boxe_02",
+      "label": "Saiba mais",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes"
+    },
+    {
+      "name": "css_06_boxe_01",
+      "label": "Boxe Background Color",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes"
+    },
+    {
+      "name": "css_chapeu_de_secoes",
+      "label": "Chapéu de seções",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "properties": [
-        "style"
+        "style_secao"
       ]
     },
     {
       "name": "css_chapeu_de_abertura",
       "label": "Chapéu de abertura",
       "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "properties": [
         "style"
       ]
@@ -2706,17 +2746,14 @@
     {
       "name": "image2",
       "icon": "icons/components/image.svg",
-      "label": {
-        "key": "COMPONENT_IMAGE_LABEL"
-      },
+      "label": "Imagem Enem/Octa",
       "properties": [
+        "style_image_fit_content",
         "position",
+        "width",
         "style",
-        "style_image",
         "inside-caption",
-        "text-align",
-        "letter-spacing",
-        "line-height"
+        "text-align"
       ],
       "directiveOptions": {
         "caption": {
@@ -3698,6 +3735,7 @@
       "label": "05 diversos",
       "name": "05_diversos",
       "components": [
+        "css_05_glossario",
         "css_05_balao_de_fala",
         "css_05_cota_titulo",
         "css_05_cota",
@@ -3719,6 +3757,9 @@
       "label": "06 boxes",
       "name": "06_boxes",
       "components": [
+        "css_06_boxe_01",
+        "css_06_boxe_02",
+        "css_06_mapa",
         "css_06_boxe_bullet",
         "css_06_boxe_exercicio_continuacao",
         "css_06_boxe_exercicio",
@@ -3845,7 +3886,6 @@
       },
       "name": "media",
       "components": [
-        "image",
         "image2",
         "embed",
         "product",
@@ -3915,6 +3955,39 @@
           {
             "caption": "Ativado",
             "value": "edit-mode"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_secao",
+      "label": "Escolha a Seção",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Padrão"
+          },
+          {
+            "caption": "PRATICAR",
+            "value": "_PRATICAR"
+          },
+          {
+            "caption": "ENEM",
+            "value": "_ENEM"
+          },
+          {
+            "caption": "BNCC",
+            "value": "_BNCC"
+          },
+          {
+            "caption": "DESTAQUE",
+            "value": "_DESTAQUE"
+          },
+          {
+            "caption": "ATENCAO",
+            "value": "_ATENCAO"
           }
         ]
       },
@@ -4315,6 +4388,15 @@
               }
             },
             "value": "alternativa_assinalar_itens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Letra Maiúscula"
+              }
+            },
+            "value": "item_uppercase"
           }
         ]
       },
