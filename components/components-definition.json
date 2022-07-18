@@ -773,7 +773,7 @@
     },
     {
       "name": "css_02_texto_bullet",
-      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "icon": "icons/components/container.svg",
       "label": "Container Lista Bullet",
       "properties": [
         "style_bullet",
