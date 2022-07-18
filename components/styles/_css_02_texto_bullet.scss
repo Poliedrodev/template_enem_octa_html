@@ -7,4 +7,35 @@
   font-weight: 300;
   line-height: 1.5em;
   padding-inline-start: 20px;
+
+  &._texto_cicle .css_02_texto_bullet_itens {
+    position: relative;
+    list-style-type: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 11px;
+      left: -16px;
+      transform: translate(-50%, -50%) rotate(90deg);
+      height: 10px;
+      width: 20px;
+      border-radius: 150px 150px 0 0;
+      background-color: #d2611c;
+    }
+  }
+
+  &._texto_bullet {
+    list-style-type: disc;
+  }
+
+  &._texto_bullet .css_02_texto_bullet_itens {
+    &::before {
+      display: none;
+    }
+  }
+
+  &._texto_number {
+    list-style-type: decimal;
+  }
 }

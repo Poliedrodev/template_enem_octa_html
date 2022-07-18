@@ -1,0 +1,117 @@
+.css_02_boxe_saiba_mais {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 32px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 0.3;
+
+  padding: 15px;
+  background: #F3F0EB;
+  border-top: 1px solid #C2B59B;
+  border-bottom: 1px solid #C2B59B;
+
+  .collapsible-title {
+    margin: 0;
+    color: #009982;
+    font-family: $fontPrincipal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .lbl-toggle-fica_a_dica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    padding-bottom: 8px;
+
+  }
+
+
+  .toggle:checked+.lbl-toggle-fica_a_dica+.collapsible-content-fica_a_dica {
+    max-height: 90rem;
+  }
+
+  .lbl-toggle-fica_a_dica .plus {
+    display: block;
+    background: url(https://livro-digital.p4ed.com/assets/icons/enem-octa/enem-octa-saiba-mais-abre.svg);
+    height: 40px;
+    width: 26px;
+    background-repeat: no-repeat;
+  }
+
+
+  .toggle:checked+.lbl-toggle-fica_a_dica .plus {
+    display: none;
+  }
+
+  .toggle:checked+.lbl-toggle-fica_a_dica .less {
+    display: block;
+    background: url(https://livro-digital.p4ed.com/assets/icons/enem-octa/enem-octa-saiba-mais-fecha.svg);
+    height: 40px;
+    width: 26px;
+    background-repeat: no-repeat;
+  }
+
+  .less {
+    display: none;
+  }
+
+  .toggle:checked+.lbl-toggle-fica_a_dica {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .collapsible-content-fica_a_dica .content-inner {
+    padding: 0 1rem;
+  }
+
+  .collapsible-content-fica_a_dica {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+  }
+
+  .flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 1.5625rem;
+  }
+
+  .txt_boxe_collapsed {
+    &[doc-container]:empty {
+      min-height: 100px;
+      background-color: #ffffff;
+    }
+  }
+
+
+
+  /*
+
+@media only screen and (min-width: $phone-max-width) {
+    &._left {
+        float: left;
+        clear: left;
+        width: 33%;
+        z-index: 1;
+    }
+
+    &._right {
+        float: right;
+        clear: right;
+        width: 33%;
+        z-index: 1;
+    }
+} */
+}

@@ -27,6 +27,13 @@
       "allowNesting": "yes"
     },
     {
+      "name": "css_02_boxe_saiba_mais",
+      "label": "Saiba mais Boxe",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes"
+    },
+    {
       "name": "css_06_boxe_02",
       "label": "Saiba mais",
       "icon": "icons/components/container.svg",
@@ -769,7 +776,7 @@
       "icon": "icons/components/icon_02_texto_bullet.svg",
       "label": "Container Lista Bullet",
       "properties": [
-        "style",
+        "style_bullet",
         "text-align",
         "letter-spacing",
         "line-height"
@@ -3759,6 +3766,7 @@
       "components": [
         "css_06_boxe_01",
         "css_06_boxe_02",
+        "css_02_boxe_saiba_mais",
         "css_06_mapa",
         "css_06_boxe_bullet",
         "css_06_boxe_exercicio_continuacao",
@@ -3915,6 +3923,47 @@
   ],
   "componentProperties": [
     {
+      "name": "style_bullet",
+      "label": {
+        "key": "PROPERTY_VARIANT_LABEL"
+      },
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Lista padrão"
+              }
+            },
+            "value": "_texto_bullet"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Lista com SEMICÍRCULO"
+              }
+            },
+            "value": "_texto_cicle"
+          }
+          ,
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Lista númerica"
+              }
+            },
+            "value": "_texto_number"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+
+    {
       "name": "position",
       "label": {
         "key": "PROPERTY_POSITION_LABEL"
@@ -3988,6 +4037,10 @@
           {
             "caption": "ATENCAO",
             "value": "_ATENCAO"
+          },
+          {
+            "caption": "Exercícios resolvidos",
+            "value": "_exercicios_resolvidos"
           }
         ]
       },

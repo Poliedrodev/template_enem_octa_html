@@ -171,24 +171,19 @@
 
   &._DESTAQUE {
     .header_chapeu_de_secoes {
-      border-bottom: 1px solid $DESTAQUE;
+      border-bottom: 1px solid #005CA9;
 
       .first_chapeu_de_secoes {
-        color: #7B7979;
-        background: $SECUNDARIA;
-
-        &:before {
-          content: '';
-        }
-      }
-
-      .second_chapeu_de_secoes {
-        color: #FFFFFF;
-        background: $DESTAQUE;
+        color: #005CA9;
+        background: #F2F2F2;
 
         &:before {
           content: 'DESTAQUE';
         }
+      }
+
+      .second_chapeu_de_secoes {
+        display: none;
       }
     }
 
@@ -223,6 +218,33 @@
       .background_number {
         .number_exercicio {
           color: $ATENCAO;
+        }
+      }
+    }
+  }
+
+  &._exercicios_resolvidos {
+    .header_chapeu_de_secoes {
+      border-bottom: 1px solid #005CA9;
+
+      .first_chapeu_de_secoes {
+        color: #005CA9;
+        background: #F2F2F2;
+
+        &:before {
+          content: 'Exercícios resolvidos';
+        }
+      }
+
+      .second_chapeu_de_secoes {
+        display: none;
+      }
+    }
+
+    .content_number {
+      .background_number {
+        .number_exercicio {
+          color: #005CA9;
         }
       }
     }
