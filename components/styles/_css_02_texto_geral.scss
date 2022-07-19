@@ -1,9 +1,14 @@
 .css_02_texto_geral {
   display: block;
-  color: $textColor;
-  font-family: $fontPrincipal;
-  font-weight: 400;
-  line-height: 1.5em;
-  font-size: 18px;
   margin-top: 24px;
+  font-family: $fontPrincipal;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+
+  @media only screen and (max-width: $phone-max-width) {
+    font-size: 14px;
+    font-weight: 300;
+  }
 }

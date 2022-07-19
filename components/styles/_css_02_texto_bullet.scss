@@ -12,6 +12,10 @@
     position: relative;
     list-style-type: none;
 
+    .css_02_texto_bullet_item_texto{
+      font-weight: 400;
+    }
+
     &::before {
       content: '';
       position: absolute;

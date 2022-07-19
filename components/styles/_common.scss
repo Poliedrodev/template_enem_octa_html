@@ -114,8 +114,8 @@ $seg_hum_cor4: #EEF7F3;
 
 $fontPrincipal: 'Rubik';
 $fonteSerifa: 'Bitter';
-$fontTitle:'Roboto';
-$fontAbertura:'Oswald';
+$fontTitle: 'Roboto';
+$fontAbertura: 'Oswald';
 $defaultFontSize: 14px;
 $defaultFontWeight: 300;
 $screen-sm-max: 991px;
@@ -138,7 +138,8 @@ li {
 p,
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -158,7 +159,6 @@ h3 {
 /* Font embeds, examples see: https://www.google.com/fonts */
 /* Imports the style from the google fonts cdn */
 @import url(https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,600;1,300&family=Oswald:wght@500;600&family=Roboto:wght@500;700&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap);
-
 
 /* Article view style */
 .body-book,

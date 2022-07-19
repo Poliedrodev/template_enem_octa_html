@@ -1,12 +1,13 @@
-.css_02_texto_bullet_item_texto{
-  font-size: 18px;
+.css_02_texto_bullet_item_texto {
   font-family: $fontPrincipal;
-
-  font-weight: 300;
-  line-height: 1.5em;
   padding-left: 4px;
   margin-top: 16px;
 
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+ 
   &:first-child {
     margin: 0 !important;
   }

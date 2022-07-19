@@ -647,6 +647,22 @@
       }
     },
     {
+      "name": "css_texto_enem",
+      "icon": "icons/components/icon_01_texto_unid.svg",
+      "label": "Texto Enem",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "css_01_texto_unid",
       "icon": "icons/components/icon_01_texto_unid.svg",
       "label": "01 Texto Unidade",
@@ -710,7 +726,7 @@
     {
       "name": "css_01_titulo1",
       "icon": "icons/components/icon_01_titulo1.svg",
-      "label": "01 Título 1",
+      "label": "Título 1",
       "properties": [
         "style",
         "text-align",
@@ -726,9 +742,24 @@
     {
       "name": "css_01_titulo2",
       "icon": "icons/components/icon_01_titulo2.svg",
-      "label": "01 Título 2",
+      "label": "Título 2",
       "properties": [
         "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "css_02_titulo2",
+      "icon": "icons/components/icon_01_titulo2.svg",
+      "label": "Título 3",
+      "properties": [
         "text-align",
         "letter-spacing",
         "line-height"
@@ -831,6 +862,7 @@
       "label": "02 Texto Citado Fonte",
       "properties": [
         "style",
+        "text-align",
         "letter-spacing",
         "line-height"
       ],
@@ -1060,7 +1092,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_continuacao",
@@ -1071,7 +1108,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "99_bancoquestao",
@@ -3629,7 +3671,6 @@
       "label": "Containers",
       "name": "containers",
       "components": [
-        "background",
         "secao_para_aprofundar",
         "secao_para_consolidar",
         "secao_produzir_e_compartilhar",
@@ -3681,18 +3722,22 @@
         "css_01_titulo1",
         "css_01_titulo2",
         "css_01_titulo3",
-        "css_01_titulo4"
+        "css_01_titulo4",
+        "css_02_titulo2"
       ]
     },
     {
       "label": "02 texto geral",
       "name": "02_texto_geral",
       "components": [
+        "css_texto_enem",
         "css_02_texto_bullet",
         "css_02_texto_bullet_item_texto",
         "css_02_texto_citado_fonte",
         "css_02_texto_citado_titulo",
         "css_02_texto_citado",
+        "css_05_fonte",
+        "css_05_legenda",
         "css_02_texto_definicao",
         "css_02_texto_destaque",
         "css_02_texto_geral1",
@@ -3765,7 +3810,6 @@
       "name": "06_boxes",
       "components": [
         "css_06_boxe_01",
-        "css_06_boxe_02",
         "css_02_boxe_saiba_mais",
         "css_06_mapa",
         "css_06_boxe_bullet",
@@ -3911,6 +3955,7 @@
       },
       "name": "layout",
       "components": [
+        "background",
         "container",
         "container_nivel1",
         "container_nivel2",
@@ -3947,8 +3992,7 @@
               }
             },
             "value": "_texto_cicle"
-          }
-          ,
+          },
           {
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
@@ -3962,7 +4006,6 @@
       },
       "dataType": "styles"
     },
-
     {
       "name": "position",
       "label": {
