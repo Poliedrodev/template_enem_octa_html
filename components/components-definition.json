@@ -64,6 +64,7 @@
       "selectionMethod": "handle",
       "allowNesting": "yes",
       "properties": [
+        "number_abertura",
         "style"
       ]
     },
@@ -4047,6 +4048,23 @@
           {
             "caption": "Ativado",
             "value": "edit-mode"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "number_abertura",
+      "label": "Quantidade de Aulas",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "1",
+            "value": "_uma_aula"
+          },
+          {
+            "caption": "2"
           }
         ]
       },

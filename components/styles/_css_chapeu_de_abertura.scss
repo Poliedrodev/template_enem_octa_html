@@ -4,6 +4,14 @@
   flex-direction: column;
   position: relative;
 
+
+  // quantidade de aulas
+  &._uma_aula .number_chapeu_de_abertura{
+    ._E_number_two,.number_two{
+      display: none;
+    }
+  }
+
   // cicle
   .body_cicle {
     position: absolute;
@@ -34,8 +42,6 @@
       font-weight: 600;
       line-height: 21px;
     }
-
-
 
     // numbers
     .number_chapeu_de_abertura {
