@@ -37,7 +37,7 @@
 
     .aulas_chapeu_de_abertura {
       color: #7B7979;
-      font-family: 'Rubik', sans-serif;
+      font-family: $fontPrincipal, sans-serif;
       font-size: 18px;
       font-weight: 600;
       line-height: 21px;
@@ -65,7 +65,7 @@
     // code 
     .code_chapeu_de_abertura {
       color: #7B7979;
-      font-family: 'Rubik', sans-serif;
+      font-family: $fontPrincipal, sans-serif;
       font-size: 18px;
       font-weight: 600;
       line-height: 21px;
