@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  $('.articleContent').each(function () {
     $('.body').each(function () {
       var radioExercicio = $('.wrap-radios');
 
@@ -17,5 +16,4 @@ $(document).ready(function () {
       radioExercicio.find('input').ready(radioId);
       radioExercicio.find('.textradio').on('click', radioId);
     });
-  });
 });
